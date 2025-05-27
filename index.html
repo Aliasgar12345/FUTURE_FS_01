@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <div class="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="Projects.html">Projects</a></li>
+
+            <!-- <li><a href="#">Service</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <!-- <section class="portfolio-section">
+  <h2 class="section-title">My Projects</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project Title 1</h3>
+      <p>Short description of the project.</p>
+      <a href="https://github.com/your-username/project1" class="btn" target="_blank">View Code</a>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project Title 2</h3>
+      <p>Short description of the project.</p>
+      <a href="https://github.com/your-username/project2" class="btn" target="_blank">View Code</a>
+    </div>
+  </div>
+</section> -->
+
+        <div class="home-info">
+            <h1>Aliasgar Garbada</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:3;" data-text="Backend Developer">Backend Developer</span>
+                <span style="--i:2;" data-text="Gamer">Gamer</span>
+
+            </h2>
+            <p>Hello, my name is Aliasgar Garbada. I am 20 years old and currently pursuing my
+                Bachelor's in Computer Engineering, in the 3rd year. I have a strong interest in front
+                end web development, and my key skills include HTML, CSS, and JavaScript. I enjoy
+                building user-friendly and visually appealing websites, and I am always eager to learn
+                and improve my coding abilities.</p>
+            <div class="btn-sci">
+                <a href="CV Ali.pdf" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/Aliasgar12345"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/aliasgar-garbada-712303352"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://x.com/Aliasgar_01"><i class='bx bxl-twitter'></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="aliasgar-profile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Aliasgar Garbada. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.navbar ul');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+
+
+</body>
+
+</html>
