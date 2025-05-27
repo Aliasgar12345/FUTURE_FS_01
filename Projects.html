@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Aliasgar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Portfolio.</a>
+    <div class="menu-toggle">
+  <i class='bx bx-menu'></i>
+</div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="active"><a href="Projects.html">Projects</a></li>
+      <!-- <li><a href="#">Service</a></li> -->
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="bars-animation">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+  </div>
+
+  <section class="home">
+    <div class="home-info">
+      <h1>My Projects</h1>
+      <p>Here you’ll find some of the web development projects I’ve worked on recently.</p>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 Aliasgar Garbada. All rights reserved.</p>
+  </footer>
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.navbar ul');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+
+</body>
+</html>
