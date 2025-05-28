@@ -330,6 +330,7 @@ a {
 
   .home-info h2 {
     font-size: 20px;
+    margin: 10px;
   }
 
   .home-info p {
@@ -392,3 +393,52 @@ a {
 .footer p {
   margin: 0;
 }
+
+
+.project {
+    position: relative;
+    z-index: 1;
+    padding: 10px 0px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: 1f242d;
+    
+
+}
+
+.project h3 {
+    margin: 0 0 5px;
+}
+
+.project a {
+    
+    text-decoration: none;
+     display: inline-block;
+  text-decoration: none;
+  background-color: #00ff00;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: background 0.3s;
+}
+
+.project a:hover {
+    background-color: #009900;
+}
+.project img {
+    border: 1px solid #aaa;
+  border-radius: 5px;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.project p{
+  color: rgb(240, 233, 233);
+}
+
+
+
+
