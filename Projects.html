@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Aliasgar</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <nav class="navbar">
     <a href="#" class="logo">Portfolio.</a>
     <div class="menu-toggle">
-  <i class='bx bx-menu'></i>
-</div>
+      <i class='bx bx-menu'></i>
+    </div>
 
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -36,21 +38,37 @@
     <div class="home-info">
       <h1>My Projects</h1>
       <p>Here you’ll find some of the web development projects I’ve worked on recently.</p>
+      <section class="projects" id="projects">
+        <!-- <h2>My Projects</h2> -->
+
+        <!-- Pehle se koi project hai to uske neeche ya sabse pehle ye daal do -->
+        <div class="project">
+          <h3>AK Fitness</h3>
+          <img src="training-828741_1920.jpg" alt="AK Fitness Project"
+            style="width: 100%; max-width: 400px; border-radius: 5px; margin-bottom: 10px;">
+          <p>This is my very first website, and I built it using only HTML and CSS. It's a very basic website.</p>
+          <a href="https://aliasgar12345.github.io/Ak_Fitness/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/aliasgar12345/Ak_Fitness" target="_blank">View on GitHub</a>
+        </div>
+
+      </section>
+
     </div>
   </section>
   <footer class="footer">
     <p>&copy; 2025 Aliasgar Garbada. All rights reserved.</p>
   </footer>
 
-<script>
-  const menuToggle = document.querySelector('.menu-toggle');
-  const navLinks = document.querySelector('.navbar ul');
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.navbar ul');
 
-  menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-</script>
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
 
 
 </body>
+
 </html>
