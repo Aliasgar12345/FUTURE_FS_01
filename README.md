@@ -7,7 +7,7 @@ This is my **personal portfolio website**, created for my internship at **Future
 
 ## 🌟 Overview
 
-This portfolio site serves as a central hub to present my work and highlight the projects I've done during my internship and beyond. It's fully responsive and built using **HTML** and **CSS** only.
+This portfolio site serves as a central hub to present my work and highlight the projects I've done during my internship and beyond. It's fully responsive and built using **HTML**,**CSS** and **JavaScript** only.
 
 ### 🚀 Live Demo
 👉 [Visit Live Website](https://aliasgar12345.github.io/FUTURE_FS_01/)
@@ -19,6 +19,7 @@ This portfolio site serves as a central hub to present my work and highlight the
 
 - **HTML**: For creating the structure of the website.
 - **CSS**: For styling, colors, and layout of the pages.
+- **JavaScript**: For adding interactivity (like form validation, smooth scrolling, or toggling menus).
 - **Formspree**: For handling the contact form submissions (no backend code required).
 
 ---
