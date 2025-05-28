@@ -1,5 +1,6 @@
 # FUTURE_FS_01
 This Is My Firtst Task Completed From Future Intern
+This portfolio was created as part of my internship at Future Intern. It’s a simple and clean website built using HTML, CSS, JavaScript, and Formspree. It represents my growth and learning as a web developer!
 
 # Personal Portfolio Website
 
